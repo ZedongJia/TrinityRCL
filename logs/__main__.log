@@ -1,0 +1,249 @@
+2024-02-21 22:48:09,423 - __main__ - INFO - start new experiment
+2024-02-21 22:48:09,438 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 100, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-21 22:48:09,438 - __main__ - INFO - loading data
+2024-02-21 22:48:09,438 - __main__ - INFO - scanning for groundtruth
+2024-02-21 22:48:09,449 - __main__ - INFO - scanning for ../datasets/aiops22-demo
+2024-02-21 22:48:09,449 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01
+2024-02-21 22:48:09,450 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed
+2024-02-21 22:48:09,450 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/trace
+2024-02-21 22:48:09,450 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/trace/all
+2024-02-21 22:48:30,662 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/log
+2024-02-21 22:48:30,662 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/log/all
+2024-02-21 22:48:39,047 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/metric
+2024-02-21 22:48:39,047 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/metric/service
+2024-02-21 22:48:39,058 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/metric/container
+2024-02-21 22:48:42,191 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/metric/istio
+2024-02-21 22:48:42,191 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/metric/jvm
+2024-02-21 22:48:42,191 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/metric/node
+2024-02-21 22:48:42,429 - __main__ - INFO - scanning for ../datasets/aiops22-demo/groundtruth
+2024-02-21 22:58:28,679 - __main__ - INFO - start new experiment
+2024-02-21 22:58:28,693 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 100, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-21 22:58:28,693 - __main__ - INFO - loading data
+2024-02-21 22:58:28,693 - __main__ - INFO - scanning for groundtruth
+2024-02-21 22:58:28,705 - __main__ - INFO - scanning for ../datasets/aiops22-demo
+2024-02-21 22:58:28,705 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01
+2024-02-21 22:58:28,705 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed
+2024-02-21 22:58:28,705 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/trace
+2024-02-21 22:58:28,705 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/trace/all
+2024-02-21 22:58:50,561 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/log
+2024-02-21 22:58:50,562 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/log/all
+2024-02-21 22:58:59,023 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/metric
+2024-02-21 22:58:59,023 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/metric/service
+2024-02-21 22:58:59,034 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/metric/container
+2024-02-21 22:59:01,822 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/metric/istio
+2024-02-21 22:59:01,822 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/metric/jvm
+2024-02-21 22:59:01,823 - __main__ - INFO - scanning for ../datasets/aiops22-demo/2022-05-01/cloudbed/metric/node
+2024-02-21 22:59:02,054 - __main__ - INFO - scanning for ../datasets/aiops22-demo/groundtruth
+2024-02-21 23:10:17,428 - __main__ - INFO - finish!
+2024-02-21 23:10:19,812 - __main__ - INFO - save to tmp.json
+2024-02-21 23:10:22,176 - __main__ - INFO - start rwr
+2024-02-21 23:29:55,451 - __main__ - INFO - finish
+2024-02-21 23:29:55,452 - __main__ - INFO - [0.09090909 0.09090909 0.09090909 0.13636364 0.13636364]
+2024-02-21 23:29:55,452 - __main__ - INFO - end experiment
+2024-02-22 12:58:08,620 - __main__ - INFO - start new experiment
+2024-02-22 12:58:08,657 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 100, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 12:58:08,657 - __main__ - INFO - load from tmp.json
+2024-02-22 12:58:10,703 - __main__ - INFO - start rwr
+2024-02-22 13:00:21,422 - __main__ - INFO - start new experiment
+2024-02-22 13:00:21,437 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 13:00:21,438 - __main__ - INFO - load from tmp.json
+2024-02-22 13:00:23,471 - __main__ - INFO - start rwr
+2024-02-22 13:19:07,658 - __main__ - INFO - finish
+2024-02-22 13:19:07,659 - __main__ - INFO - [0.09090909 0.09090909 0.09090909 0.13636364 0.13636364]
+2024-02-22 13:19:07,659 - __main__ - INFO - end experiment
+2024-02-22 14:10:32,736 - __main__ - INFO - start new experiment
+2024-02-22 14:10:32,751 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 100, 'per_times': 100, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 14:10:32,751 - __main__ - INFO - load from tmp.json
+2024-02-22 14:10:34,870 - __main__ - INFO - start rwr
+2024-02-22 14:10:35,001 - __main__ - INFO - finish
+2024-02-22 14:10:35,002 - __main__ - INFO - [0.04545455 0.09090909 0.09090909 0.13636364 0.13636364]
+2024-02-22 14:10:35,002 - __main__ - INFO - end experiment
+2024-02-22 14:11:03,950 - __main__ - INFO - start new experiment
+2024-02-22 14:11:03,964 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 14:11:03,964 - __main__ - INFO - load from tmp.json
+2024-02-22 14:11:06,034 - __main__ - INFO - start rwr
+2024-02-22 14:11:07,202 - __main__ - INFO - finish
+2024-02-22 14:11:07,202 - __main__ - INFO - [0.09090909 0.09090909 0.13636364 0.13636364 0.13636364]
+2024-02-22 14:11:07,202 - __main__ - INFO - end experiment
+2024-02-22 14:12:36,214 - __main__ - INFO - start new experiment
+2024-02-22 14:12:36,230 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 14:12:36,230 - __main__ - INFO - load from tmp.json
+2024-02-22 14:12:38,371 - __main__ - INFO - start rwr
+2024-02-22 14:12:39,532 - __main__ - INFO - finish
+2024-02-22 14:12:39,533 - __main__ - INFO - [0.09090909 0.09090909 0.13636364 0.13636364 0.13636364]
+2024-02-22 14:12:39,533 - __main__ - INFO - end experiment
+2024-02-22 14:16:03,884 - __main__ - INFO - start new experiment
+2024-02-22 14:16:03,901 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 14:16:03,902 - __main__ - INFO - load from tmp.json
+2024-02-22 14:16:06,261 - __main__ - INFO - start rwr
+2024-02-22 14:16:22,285 - __main__ - INFO - finish
+2024-02-22 14:16:22,285 - __main__ - INFO - [0.09090909 0.09090909 0.13636364 0.13636364 0.13636364]
+2024-02-22 14:16:22,286 - __main__ - INFO - end experiment
+2024-02-22 14:17:55,661 - __main__ - INFO - start new experiment
+2024-02-22 14:17:55,676 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 14:17:55,676 - __main__ - INFO - load from tmp.json
+2024-02-22 14:17:57,792 - __main__ - INFO - start rwr
+2024-02-22 14:17:59,552 - __main__ - INFO - finish
+2024-02-22 14:17:59,553 - __main__ - INFO - [0.09090909 0.09090909 0.13636364 0.13636364 0.13636364]
+2024-02-22 14:17:59,553 - __main__ - INFO - end experiment
+2024-02-22 14:18:52,187 - __main__ - INFO - start new experiment
+2024-02-22 14:18:52,204 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 14:18:52,204 - __main__ - INFO - load from tmp.json
+2024-02-22 14:18:54,423 - __main__ - INFO - start rwr
+2024-02-22 14:18:56,276 - __main__ - INFO - finish
+2024-02-22 14:18:56,276 - __main__ - INFO - [0.09090909 0.09090909 0.13636364 0.13636364 0.13636364]
+2024-02-22 14:18:56,277 - __main__ - INFO - end experiment
+2024-02-22 14:21:37,973 - __main__ - INFO - start new experiment
+2024-02-22 14:21:37,990 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 14:21:37,990 - __main__ - INFO - load from tmp.json
+2024-02-22 14:21:40,068 - __main__ - INFO - start rwr
+2024-02-22 14:21:41,295 - __main__ - INFO - finish
+2024-02-22 14:21:41,297 - __main__ - INFO - [0.09090909 0.09090909 0.13636364 0.13636364 0.13636364]
+2024-02-22 14:21:41,297 - __main__ - INFO - end experiment
+2024-02-22 14:23:09,041 - __main__ - INFO - start new experiment
+2024-02-22 14:23:09,056 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 14:23:09,056 - __main__ - INFO - load from tmp.json
+2024-02-22 14:23:11,129 - __main__ - INFO - start rwr
+2024-02-22 14:23:12,368 - __main__ - INFO - finish
+2024-02-22 14:23:12,368 - __main__ - INFO - [0.09090909 0.09090909 0.13636364 0.13636364 0.13636364]
+2024-02-22 14:23:12,369 - __main__ - INFO - end experiment
+2024-02-22 14:23:37,023 - __main__ - INFO - start new experiment
+2024-02-22 14:23:37,038 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 14:23:37,038 - __main__ - INFO - load from tmp.json
+2024-02-22 14:23:39,148 - __main__ - INFO - start rwr
+2024-02-22 14:23:40,510 - __main__ - INFO - finish
+2024-02-22 14:23:40,511 - __main__ - INFO - [0.09090909 0.09090909 0.13636364 0.13636364 0.13636364]
+2024-02-22 14:23:40,511 - __main__ - INFO - end experiment
+2024-02-22 14:25:09,767 - __main__ - INFO - start new experiment
+2024-02-22 14:25:09,782 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 14:25:09,782 - __main__ - INFO - load from tmp.json
+2024-02-22 14:25:11,942 - __main__ - INFO - start rwr
+2024-02-22 14:25:13,163 - __main__ - INFO - finish
+2024-02-22 14:25:13,164 - __main__ - INFO - [0.09090909 0.09090909 0.13636364 0.13636364 0.13636364]
+2024-02-22 14:25:13,164 - __main__ - INFO - end experiment
+2024-02-22 14:29:25,787 - __main__ - INFO - start new experiment
+2024-02-22 14:29:25,804 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 14:29:25,804 - __main__ - INFO - load from tmp.json
+2024-02-22 14:29:55,907 - __main__ - INFO - start new experiment
+2024-02-22 14:29:55,922 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 14:29:55,922 - __main__ - INFO - load from tmp.json
+2024-02-22 14:29:58,197 - __main__ - INFO - end experiment
+2024-02-22 14:40:01,635 - __main__ - INFO - start new experiment
+2024-02-22 14:40:01,649 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 14:40:01,649 - __main__ - INFO - load from tmp.json
+2024-02-22 14:40:04,347 - __main__ - INFO - end experiment
+2024-02-22 14:40:32,395 - __main__ - INFO - start new experiment
+2024-02-22 14:40:32,412 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 14:40:32,412 - __main__ - INFO - load from tmp.json
+2024-02-22 14:40:35,123 - __main__ - INFO - end experiment
+2024-02-22 14:50:49,705 - __main__ - INFO - start new experiment
+2024-02-22 14:50:49,720 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 14:50:49,720 - __main__ - INFO - load from tmp.json
+2024-02-22 14:50:52,385 - __main__ - INFO - end experiment
+2024-02-22 15:02:08,910 - __main__ - INFO - start new experiment
+2024-02-22 15:02:08,925 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 15:02:08,925 - __main__ - INFO - load from tmp.json
+2024-02-22 15:02:27,889 - __main__ - INFO - start new experiment
+2024-02-22 15:02:27,904 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 15:02:27,904 - __main__ - INFO - load from tmp.json
+2024-02-22 15:02:31,087 - __main__ - INFO - end experiment
+2024-02-22 15:03:13,404 - __main__ - INFO - start new experiment
+2024-02-22 15:03:13,418 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 15:03:13,418 - __main__ - INFO - load from tmp.json
+2024-02-22 15:03:16,527 - __main__ - INFO - start rwr
+2024-02-22 15:03:17,640 - __main__ - INFO - finish
+2024-02-22 15:03:17,641 - __main__ - INFO - [0.13636364 0.27272727 0.36363636 0.36363636 0.5       ]
+2024-02-22 15:03:17,641 - __main__ - INFO - end experiment
+2024-02-22 15:04:09,187 - __main__ - INFO - start new experiment
+2024-02-22 15:04:09,201 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 15:04:09,201 - __main__ - INFO - load from tmp.json
+2024-02-22 15:04:12,259 - __main__ - INFO - start rwr
+2024-02-22 15:04:13,419 - __main__ - INFO - finish
+2024-02-22 15:04:13,420 - __main__ - INFO - [0.13636364 0.27272727 0.36363636 0.36363636 0.5       ]
+2024-02-22 15:04:13,421 - __main__ - INFO - end experiment
+2024-02-22 15:41:40,668 - __main__ - INFO - start new experiment
+2024-02-22 15:41:40,684 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 100, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops22-demo', 'itv': 60}
+2024-02-22 15:41:40,684 - __main__ - INFO - load from tmp.json
+2024-02-22 15:41:43,909 - __main__ - INFO - start rwr
+2024-02-22 16:02:20,782 - __main__ - INFO - finish
+2024-02-22 16:02:20,783 - __main__ - INFO - [0.09090909 0.27272727 0.31818182 0.40909091 0.45454545]
+2024-02-22 16:02:20,783 - __main__ - INFO - end experiment
+2024-02-22 16:08:17,719 - __main__ - INFO - start new experiment
+2024-02-22 16:08:17,735 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 100, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops2022-pre', 'itv': 60}
+2024-02-22 16:08:17,735 - __main__ - INFO - loading data
+2024-02-22 16:08:17,735 - __main__ - INFO - scanning for groundtruth
+2024-02-22 16:08:17,790 - __main__ - INFO - scanning for ../datasets/aiops2022-pre
+2024-02-22 16:08:17,791 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-09
+2024-02-22 16:08:17,791 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-09/cloudbed
+2024-02-22 16:08:17,791 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-09/cloudbed/trace
+2024-02-22 16:08:17,791 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-09/cloudbed/trace/all
+2024-02-22 16:08:40,628 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-09/cloudbed/log
+2024-02-22 16:08:40,629 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-09/cloudbed/log/all
+2024-02-22 16:08:49,172 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-09/cloudbed/metric
+2024-02-22 16:08:49,173 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-09/cloudbed/metric/service
+2024-02-22 16:08:49,228 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-09/cloudbed/metric/container
+2024-02-22 16:08:53,201 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-09/cloudbed/metric/istio
+2024-02-22 16:08:53,202 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-09/cloudbed/metric/jvm
+2024-02-22 16:08:53,202 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-09/cloudbed/metric/node
+2024-02-22 16:08:53,483 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-01
+2024-02-22 16:08:53,483 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-01/cloudbed
+2024-02-22 16:08:53,483 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-01/cloudbed/trace
+2024-02-22 16:08:53,483 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-01/cloudbed/trace/all
+2024-02-22 16:09:14,125 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-01/cloudbed/log
+2024-02-22 16:09:14,125 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-01/cloudbed/log/all
+2024-02-22 16:09:22,469 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-01/cloudbed/metric
+2024-02-22 16:09:22,469 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-01/cloudbed/metric/service
+2024-02-22 16:09:22,528 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-01/cloudbed/metric/container
+2024-02-22 16:09:26,814 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-01/cloudbed/metric/istio
+2024-02-22 16:09:26,814 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-01/cloudbed/metric/jvm
+2024-02-22 16:09:26,814 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-01/cloudbed/metric/node
+2024-02-22 16:09:27,069 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-05
+2024-02-22 16:09:27,069 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-05/cloudbed
+2024-02-22 16:09:27,069 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-05/cloudbed/trace
+2024-02-22 16:09:27,069 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-05/cloudbed/trace/all
+2024-02-22 16:09:48,561 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-05/cloudbed/log
+2024-02-22 16:09:48,561 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-05/cloudbed/log/all
+2024-02-22 16:10:00,844 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-05/cloudbed/metric
+2024-02-22 16:10:00,844 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-05/cloudbed/metric/service
+2024-02-22 16:10:00,893 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-05/cloudbed/metric/container
+2024-02-22 16:10:04,535 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-05/cloudbed/metric/istio
+2024-02-22 16:10:04,535 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-05/cloudbed/metric/jvm
+2024-02-22 16:10:04,535 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-05/cloudbed/metric/node
+2024-02-22 16:10:04,792 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/groundtruth
+2024-02-22 16:10:04,792 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-07
+2024-02-22 16:10:04,792 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-07/cloudbed
+2024-02-22 16:10:04,792 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-07/cloudbed/trace
+2024-02-22 16:10:04,792 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-07/cloudbed/trace/all
+2024-02-22 16:10:27,220 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-07/cloudbed/log
+2024-02-22 16:10:27,220 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-07/cloudbed/log/all
+2024-02-22 16:10:37,969 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-07/cloudbed/metric
+2024-02-22 16:10:37,970 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-07/cloudbed/metric/service
+2024-02-22 16:10:38,032 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-07/cloudbed/metric/container
+2024-02-22 16:10:42,045 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-07/cloudbed/metric/istio
+2024-02-22 16:10:42,045 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-07/cloudbed/metric/jvm
+2024-02-22 16:10:42,045 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-07/cloudbed/metric/node
+2024-02-22 16:10:42,353 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-03
+2024-02-22 16:10:42,354 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-03/cloudbed
+2024-02-22 16:10:42,354 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-03/cloudbed/trace
+2024-02-22 16:10:42,354 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-03/cloudbed/trace/all
+2024-02-22 16:11:03,815 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-03/cloudbed/log
+2024-02-22 16:11:03,815 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-03/cloudbed/log/all
+2024-02-22 16:11:14,553 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-03/cloudbed/metric
+2024-02-22 16:11:14,553 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-03/cloudbed/metric/service
+2024-02-22 16:11:14,615 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-03/cloudbed/metric/container
+2024-02-22 16:11:17,997 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-03/cloudbed/metric/istio
+2024-02-22 16:11:17,998 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-03/cloudbed/metric/jvm
+2024-02-22 16:11:17,998 - __main__ - INFO - scanning for ../datasets/aiops2022-pre/2022-05-03/cloudbed/metric/node
+2024-02-22 17:14:20,221 - __main__ - INFO - finish!
+2024-02-22 17:14:36,143 - __main__ - INFO - save to tmp.json
+2024-02-22 17:14:56,774 - __main__ - INFO - start rwr
+2024-02-22 19:19:16,137 - __main__ - INFO - finish
+2024-02-22 19:19:16,139 - __main__ - INFO - [0.125      0.26388889 0.30555556 0.39583333 0.53472222]
+2024-02-22 19:19:16,139 - __main__ - INFO - end experiment
+2024-04-11 22:10:46,403 - __main__ - INFO - start new experiment
+2024-04-11 22:10:46,584 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 100, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops2022-pre', 'itv': 60}
+2024-04-11 22:10:46,585 - __main__ - INFO - load from aiops22.json
+2024-04-11 22:10:56,494 - __main__ - INFO - start new experiment
+2024-04-11 22:10:56,511 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 100, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops2022-pre', 'itv': 60}
+2024-04-11 22:10:56,512 - __main__ - INFO - load from aiops22.json
+2024-04-11 22:11:21,289 - __main__ - INFO - start rwr
