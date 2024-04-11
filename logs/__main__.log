@@ -247,3 +247,23 @@
 2024-04-11 22:10:56,511 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 100, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops2022-pre', 'itv': 60}
 2024-04-11 22:10:56,512 - __main__ - INFO - load from aiops22.json
 2024-04-11 22:11:21,289 - __main__ - INFO - start rwr
+2024-04-11 22:36:09,619 - __main__ - INFO - start new experiment
+2024-04-11 22:36:09,636 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 100000, 'per_times': 100, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops2022-pre', 'itv': 60}
+2024-04-11 22:36:09,637 - __main__ - INFO - load from aiops22.json
+2024-04-11 22:36:34,454 - __main__ - INFO - start rwr
+2024-04-11 22:41:51,272 - __main__ - INFO - start new experiment
+2024-04-11 22:41:51,290 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 100, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops2022-pre', 'itv': 60}
+2024-04-11 22:41:51,290 - __main__ - INFO - load from aiops22.json
+2024-04-11 22:42:16,052 - __main__ - INFO - start rwr
+2024-04-11 22:46:12,999 - __main__ - INFO - start new experiment
+2024-04-11 22:46:13,017 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 100, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops2022-pre', 'itv': 60}
+2024-04-11 22:46:13,017 - __main__ - INFO - load from aiops22.json
+2024-04-11 22:46:37,883 - __main__ - INFO - start rwr
+2024-04-11 22:49:02,502 - __main__ - INFO - start new experiment
+2024-04-11 22:49:02,521 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 100, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops2022-pre', 'itv': 60}
+2024-04-11 22:49:02,521 - __main__ - INFO - load from aiops22.json
+2024-04-11 22:49:27,795 - __main__ - INFO - start rwr
+2024-04-11 22:50:06,487 - __main__ - INFO - start new experiment
+2024-04-11 22:50:06,504 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 100, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops2022-pre', 'itv': 60}
+2024-04-11 22:50:06,505 - __main__ - INFO - load from aiops22.json
+2024-04-11 22:50:31,177 - __main__ - INFO - start rwr

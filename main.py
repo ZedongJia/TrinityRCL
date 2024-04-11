@@ -323,9 +323,7 @@ class AIops22Dataset(Dataset):
         read groundtruth
         """
         gts = []
-        for gt_filepath in os.listdir(
-            os.path.join(self.dataset_dir, "groundtruth")
-        ):
+        for gt_filepath in os.listdir(os.path.join(self.dataset_dir, "groundtruth")):
             gts.append(
                 pd.read_json(
                     os.path.join(self.dataset_dir, "groundtruth", gt_filepath),
@@ -813,11 +811,13 @@ class TrinityRCL:
             3. rank by visited times
             """
             cnts = {node: 0 for node in nodes_list}
+            node2idx = {node: index for index, node in enumerate(nodes_list)}
 
             total_times = self.config["total_times"]
             per_times = self.config["per_times"]
+            c = 0
             for _ in range(int(total_times / per_times)):
-                curr = nodes_list.index(entry)
+                curr = node2idx[entry]
                 for _ in range(per_times):
                     cnts[nodes_list[curr]] += 1
                     p = tm[curr, :]
