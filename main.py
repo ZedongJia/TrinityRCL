@@ -8,6 +8,7 @@ import warnings
 from drain3.template_miner import TemplateMiner
 from drain3.template_miner_config import TemplateMinerConfig
 import json
+from multiprocessing import Pool
 
 warnings.filterwarnings("ignore")
 
@@ -815,13 +816,21 @@ class TrinityRCL:
 
             total_times = self.config["total_times"]
             per_times = self.config["per_times"]
-            c = 0
+            p = tm / np.sum(tm, axis=1,keepdims=True)
+            pool = Pool(20)
+            tasks = []
             for _ in range(int(total_times / per_times)):
                 curr = node2idx[entry]
-                for _ in range(per_times):
-                    cnts[nodes_list[curr]] += 1
-                    p = tm[curr, :]
-                    curr = np.random.choice(a=range(len(p)), size=1, p=p / p.sum())[0]
+                task = pool.apply_async(
+                    _rwr_,
+                    (curr, nodes_list, p, per_times)
+                )
+                tasks.append(task)
+            pool.close()
+            for task in tasks:
+                _cnts = task.get()
+                for key, val in _cnts.items():
+                    cnts[key] += val
 
             cnts = [(node, cnt) for node, cnt in cnts.items()]
             cnts.sort(key=lambda x: x[1], reverse=True)
@@ -838,6 +847,13 @@ class TrinityRCL:
         logger.info("finish")
         return ypreds
 
+def _rwr_(curr, nodes_list, p, per_times):
+    cnts = {node: 0 for node in nodes_list}
+    for _ in range(per_times):
+        cnts[nodes_list[curr]] += 1
+        curr_p = p[curr,:]
+        curr = np.random.choice(a=range(len(curr_p)), size=1, p=curr_p)[0]
+    return cnts
 
 def get_topk(ytrues, ypreds):
     topk = [0, 0, 0, 0, 0]

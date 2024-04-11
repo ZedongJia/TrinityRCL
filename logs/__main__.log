@@ -271,3 +271,29 @@
 2024-04-11 22:55:00,689 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 100, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops2022-pre', 'itv': 60}
 2024-04-11 22:55:00,689 - __main__ - INFO - load from aiops22.json
 2024-04-11 22:55:14,977 - __main__ - INFO - start rwr
+2024-04-11 23:12:17,082 - __main__ - INFO - start new experiment
+2024-04-11 23:12:17,099 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 100, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops2022-pre', 'itv': 60}
+2024-04-11 23:12:17,099 - __main__ - INFO - load from aiops22.json
+2024-04-11 23:12:41,888 - __main__ - INFO - start rwr
+2024-04-11 23:20:29,302 - __main__ - INFO - start new experiment
+2024-04-11 23:20:29,320 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops2022-pre', 'itv': 60}
+2024-04-11 23:20:29,320 - __main__ - INFO - load from aiops22.json
+2024-04-11 23:20:53,823 - __main__ - INFO - start rwr
+2024-04-11 23:22:17,366 - __main__ - INFO - start new experiment
+2024-04-11 23:22:17,397 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops2022-pre', 'itv': 60}
+2024-04-11 23:22:17,397 - __main__ - INFO - load from aiops22.json
+2024-04-11 23:22:42,848 - __main__ - INFO - start rwr
+2024-04-11 23:37:18,860 - __main__ - INFO - start new experiment
+2024-04-11 23:37:18,878 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops2022-pre', 'itv': 60}
+2024-04-11 23:37:18,878 - __main__ - INFO - load from aiops22.json
+2024-04-11 23:37:32,024 - __main__ - INFO - start new experiment
+2024-04-11 23:37:32,041 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops2022-pre', 'itv': 60}
+2024-04-11 23:37:32,042 - __main__ - INFO - load from aiops22.json
+2024-04-11 23:37:56,918 - __main__ - INFO - start rwr
+2024-04-11 23:38:45,330 - __main__ - INFO - start new experiment
+2024-04-11 23:38:45,347 - __main__ - INFO - {'seed': 2024, 'alpha': 0.2, 'beta': 0.5, 'gamma': 0.2, 'rho': 0.5, 'total_times': 1000000, 'per_times': 1000, 'dataset': 'aiops22', 'dataset_dir': '../datasets/aiops2022-pre', 'itv': 60}
+2024-04-11 23:38:45,348 - __main__ - INFO - load from aiops22.json
+2024-04-11 23:39:10,106 - __main__ - INFO - start rwr
+2024-04-11 23:50:08,068 - __main__ - INFO - finish
+2024-04-11 23:50:08,090 - __main__ - INFO - [0.14583333 0.26388889 0.33333333 0.43055556 0.52777778]
+2024-04-11 23:50:08,090 - __main__ - INFO - end experiment
