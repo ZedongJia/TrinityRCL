@@ -17,7 +17,7 @@ python main.py
 
 |     Dataset      | Top@1 | Top@3 | Top@5 |
 | :--------------: | :---: | :---: | :---: |
-| AIopsChallenge22 | 0.146 | 0.333 | 0.528 |
+| AIopsChallenge22 | 0.063 | 0.278 | 0.507 |
 
 ## Running on your own dataset
 

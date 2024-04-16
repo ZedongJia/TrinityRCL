@@ -798,7 +798,7 @@ class TrinityRCL:
             self.rwr_tms.append(tm)
             scheduler.update(1)
 
-    def rwr(self):
+    def rwr(self, restart_p):
         logger.info("start rwr")
         ypreds = []
         scheduler = tqdm(total=len(self.rwr_tms), desc="rwring")
@@ -816,14 +816,13 @@ class TrinityRCL:
 
             total_times = self.config["total_times"]
             per_times = self.config["per_times"]
-            p = tm / np.sum(tm, axis=1,keepdims=True)
+            p = tm / np.sum(tm, axis=1, keepdims=True)
             pool = Pool(20)
             tasks = []
             for _ in range(int(total_times / per_times)):
                 curr = node2idx[entry]
                 task = pool.apply_async(
-                    _rwr_,
-                    (curr, nodes_list, p, per_times)
+                    _rwr_, (curr, nodes_list, p, per_times, restart_p)
                 )
                 tasks.append(task)
             pool.close()
@@ -847,13 +846,23 @@ class TrinityRCL:
         logger.info("finish")
         return ypreds
 
-def _rwr_(curr, nodes_list, p, per_times):
+
+def _rwr_(entry, nodes_list, p, per_times, restart_p):
+    curr = entry
     cnts = {node: 0 for node in nodes_list}
     for _ in range(per_times):
+        # count the enter
         cnts[nodes_list[curr]] += 1
-        curr_p = p[curr,:]
+        if np.random.rand() < restart_p:
+            # restart
+            curr = entry
+            continue
+        # probability
+        curr_p = p[curr, :]
+        # random choice
         curr = np.random.choice(a=range(len(curr_p)), size=1, p=curr_p)[0]
     return cnts
+
 
 def get_topk(ytrues, ypreds):
     topk = [0, 0, 0, 0, 0]
@@ -879,13 +888,13 @@ if __name__ == "__main__":
 
     print(config)
     dataset = AIops22Dataset(config["dataset"], config["dataset_dir"], config["itv"])
-    # dataset.load()
-    # dataset.save("aiops22.json")
-    dataset.load_json("aiops22.json")
+    if os.path.exists("aiops22.json"):
+        dataset.load_json("aiops22.json")
+    else:
+        dataset.load()
+        dataset.save("aiops22.json")
     rcl = TrinityRCL(dataset, config)
-    ypred = rcl.rwr()
-    # [print(_ypred) for _ypred in ypred]
-    # print(dataset.ytrues)
+    ypred = rcl.rwr(config["restart_p"])
     topk = get_topk(dataset.ytrues, ypred)
     print(topk)
     logger.info(str(topk))
